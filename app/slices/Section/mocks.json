@@ -1,0 +1,46 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "FieldContent",
+				"value": "label",
+				"type": "Text"
+			},
+			"copy": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Qui in consectetur nostrud magna Lorem exercitation reprehenderit enim tempor anim sit."
+						}
+					}
+				]
+			},
+			"link": {
+				"__TYPE__": "RepeatableContent",
+				"type": "Link",
+				"value": [
+					{
+						"key": "7b4af2a4-142f-41e9-8b2c-d9d422b47e29",
+						"__TYPE__": "LinkContent",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "http://twitter.com",
+							"text": "purpose",
+							"variant": "Linkedin"
+						}
+					}
+				]
+			},
+			"link_icon": {
+				"__TYPE__": "FieldContent",
+				"value": "No Icon",
+				"type": "Select"
+			}
+		},
+		"items": []
+	}
+]
