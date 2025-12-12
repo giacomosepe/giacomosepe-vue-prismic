@@ -882,7 +882,7 @@ export interface SectionSliceDefaultPrimary {
       string,
       unknown,
       prismic.FieldState,
-      "Primary" | "Website" | "Linkedin" | "AngelList"
+      "Primary" | "Website" | "Linkedin" | "AngelList" | "Substack"
     >
   >;
 
@@ -895,12 +895,7 @@ export interface SectionSliceDefaultPrimary {
    * - **Documentation**: https://prismic.io/docs/fields/select
    */
   link_icon: prismic.SelectField<
-    | "No Icon"
-    | "Linkedin icon"
-    | "Twitter Icon"
-    | "Website "
-    | "Substack"
-    | "Angel list"
+    "No Icon" | "Linkedin icon" | "Twitter Icon" | "Substack" | "Angel list"
   >;
 }
 

@@ -26,6 +26,12 @@ export default defineNuxtConfig({
 
 	modules: ["@nuxt/eslint", "@nuxtjs/i18n", "@nuxtjs/prismic"],
 
+	runtimeConfig: {
+		public: {
+			gtmId: process.env.NUXT_PUBLIC_GTM_ID || " ",
+		},
+	},
+
 	i18n: {
 		locales: [
 			{

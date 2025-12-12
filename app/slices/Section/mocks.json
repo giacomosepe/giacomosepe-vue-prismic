@@ -24,20 +24,20 @@
 				"type": "Link",
 				"value": [
 					{
-						"key": "7b4af2a4-142f-41e9-8b2c-d9d422b47e29",
+						"key": "a2c50dc5-adca-4e7a-bd86-48bcf64e3753",
 						"__TYPE__": "LinkContent",
 						"value": {
 							"__TYPE__": "ExternalLink",
-							"url": "http://twitter.com",
-							"text": "purpose",
-							"variant": "Linkedin"
+							"url": "https://slicemachine.dev",
+							"text": "iron",
+							"variant": "Website"
 						}
 					}
 				]
 			},
 			"link_icon": {
 				"__TYPE__": "FieldContent",
-				"value": "No Icon",
+				"value": "Linkedin icon",
 				"type": "Select"
 			}
 		},
